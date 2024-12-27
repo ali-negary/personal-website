@@ -1,4 +1,4 @@
-import { Github } from "lucide-react";
+import { GitHubIcon } from "../shared/Icons";
 import { siteConfig } from "../../config/siteConfig";
 
 export function Projects() {
@@ -33,7 +33,7 @@ export function Projects() {
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
                     >
-                      <Github size={20} />
+                      <GitHubIcon size={20} />
                       <span>Code</span>
                     </a>
                   )}

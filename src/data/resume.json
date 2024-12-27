@@ -1,80 +1,96 @@
 {
-    "basics": {
-      "name": "Ali Negary",
-      "title": "Data Engineer",
-      "email": "ali.negary@outlook.com",
-      "linkedin": "https://www.linkedin.com/in/alinegary",
-      "github": "https://github.com/ali-negary",
-      "location": "Czech Republic",
-      "about": "5 years of industry experience, working on a diverse range of projects in both large teams and small start-ups. Seeking a challenging data engineering position that offers opportunities for growth and development. Particularly interested in roles that provide Visa sponsorship. Avid reader, football enthusiast, and always eager to explore new horizons of data."
+  "basics": {
+    "name": "Ali Negary",
+    "title": "Data Engineer",
+    "email": "ali.negary@outlook.com",
+    "linkedin": "https://www.linkedin.com/in/alinegary",
+    "github": "https://github.com/ali-negary",
+    "location": "Czech Republic",
+    "about": "5 years of industry experience, working on a diverse range of projects in both large teams and small start-ups. Seeking a challenging data engineering position that offers opportunities for growth and development. Particularly interested in roles that provide Visa sponsorship. Avid reader, football enthusiast, and always eager to explore new horizons of data."
+  },
+  "skills": [
+    { "name": "Python", "years": 5 },
+    { "name": "AWS", "years": 2.5 },
+    { "name": "SQL", "years": 5 },
+    { "name": "NO-SQL", "years": 4 },
+    { "name": "Git", "years": 5 }
+  ],
+  "interests": [],
+  "experience": [
+    {
+      "company": "Valeo",
+      "website": "https://www.valeo.com/en/",
+      "title": "Software Toolchain Engineer III, R&D",
+      "location": "Czech Republic (On-Site)",
+      "period": "Feb, 2024 - Present",
+      "logo": "https://images.unsplash.com/photo-1621768216002-5ac171876625?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+      "tools": [
+        "Python",
+        "Apache Airflow",
+        "AWS",
+        "Pandas",
+        "Elasticsearch",
+        "Kibana",
+        "FastAPI",
+        "Neo4j",
+        "PostgreSQL",
+        "RabbitMQ",
+        "Docker"
+      ]
     },
-    "skills": [
-      { "name": "Python", "years": 5 },
-      { "name": "AWS", "years": 2.5 },
-      { "name": "Apache Airflow", "years": 1 },
-      { "name": "Apache NiFi", "years": 1 },
-      { "name": "Pandas", "years": 3.5 },
-      { "name": "PostgreSQL", "years": 4 },
-      { "name": "Redis", "years": 3.5 },
-      { "name": "No-SQL", "years": 2.5 },
-      { "name": "Git", "years": 3 },
-      { "name": "CI/CD", "years": 2 },
-      { "name": "Docker", "years": 1 },
-      { "name": "Unit-testing", "years": 2 },
-      { "name": "Flask/Django", "years": 1 },
-      { "name": "Jira", "years": 2 },
-      { "name": "Confluence", "years": 1.5 }
-    ],
-    "experience": [
-      {
-        "company": "Valeo",
-        "website": "https://www.valeo.com/en/",
-        "title": "Software Toolchain Engineer III, R&D",
-        "location": "Czech Republic (On-Site)",
-        "period": "Feb, 2024 - Present",
-        "tools": ["Python", "Apache Airflow", "AWS", "Pandas", "Elasticsearch", "Kibana", "FastAPI", "Neo4j", "PostgreSQL", "RabbitMQ", "Docker"]
-      },
-      {
-        "company": "Dijuno (ex-Interrodata)",
-        "website": "https://www.dijuno.ai",
-        "title": "Python Data Engineer, Engineering",
-        "location": "United Kingdom (Remote)",
-        "period": "Nov, 2021 - Dec, 2023",
-        "tools": ["Python", "Apache Airflow", "AWS", "Pandas", "Docker", "REST API", "Jira", "Bitbucket", "Confluence", "Slackbot"]
-      }
-    ],
-    "projects": [
-      {
-        "title": "JuiceMaster",
-        "description": "Dockerized Flask-based service for managing batteries and tracking their issues. It provides endpoints to perform CRUD operations on batteries, information log, and manage battery issues.",
-        "github": "https://github.com/ali-negary/JuiceMaster",
-        "technologies": ["Python", "Flask", "Docker", "REST API"]
-      }
-    ],
-    "education": [
-      {
-        "school": "Iran University of Science and Technology",
-        "degree": "M.Sc. Computer Engineering",
-        "location": "Tehran, Iran",
-        "period": "2021-2022",
-        "achievements": [
-          "Distinguished student of Computer Engineering - Top of Class 2022"
-        ]
-      },
-      {
-        "school": "University of Zanjan",
-        "degree": "B.Sc. Electronics Engineering",
-        "location": "Zanjan, Iran",
-        "period": "2015-2019",
-        "achievements": [
-          "Winner of Best Bachelor Project in Computer Engineering and Electrical Engineering Department, 2019"
-        ]
-      }
-    ],
-    "languages": [
-      { "name": "English", "level": "Advanced" },
-      { "name": "Persian", "level": "Native" },
-      { "name": "Kurdish", "level": "Native" },
-      { "name": "Czech", "level": "Limited" }
-    ]
-  }
+    {
+      "company": "Dijuno (ex-Interrodata)",
+      "website": "https://www.dijuno.ai",
+      "title": "Python Data Engineer, Engineering",
+      "location": "United Kingdom (Remote)",
+      "period": "Nov, 2021 - Dec, 2023",
+      "logo": "https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+      "tools": [
+        "Python",
+        "Apache Airflow",
+        "AWS",
+        "Pandas",
+        "Docker",
+        "REST API",
+        "Jira",
+        "Bitbucket",
+        "Confluence",
+        "Slackbot"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "JuiceMaster",
+      "description": "Dockerized Flask-based service for managing batteries and tracking their issues. It provides endpoints to perform CRUD operations on batteries, information log, and manage battery issues.",
+      "github": "https://github.com/ali-negary/JuiceMaster",
+      "technologies": ["Python", "Flask", "Docker", "REST API"]
+    }
+  ],
+  "education": [
+    {
+      "school": "Iran University of Science and Technology",
+      "degree": "M.Sc. Computer Engineering",
+      "location": "Tehran, Iran",
+      "period": "2021-2022",
+      "achievements": [
+        "Distinguished student of Computer Engineering - Top of Class 2022"
+      ]
+    },
+    {
+      "school": "University of Zanjan",
+      "degree": "B.Sc. Electronics Engineering",
+      "location": "Zanjan, Iran",
+      "period": "2015-2019",
+      "achievements": [
+        "Winner of Best Bachelor Project in Computer Engineering and Electrical Engineering Department, 2019"
+      ]
+    }
+  ],
+  "languages": [
+    { "name": "English", "level": "Advanced" },
+    { "name": "Persian", "level": "Native" },
+    { "name": "Kurdish", "level": "Native" },
+    { "name": "Czech", "level": "Limited" }
+  ]
+}

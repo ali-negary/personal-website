@@ -13,8 +13,9 @@ export const siteConfig = {
   heroImage: "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
   
   // Data from resume
-  skills: resumeData.skills,
-  experience: resumeData.experience.slice(0, 2), // Only show last 2 jobs
+  skills: resumeData.skills.slice(0, 5),
+  interests: resumeData.interests,
+  experience: resumeData.experience.slice(0, 2),
   projects: resumeData.projects,
   education: resumeData.education,
   languages: resumeData.languages
@@ -26,12 +27,15 @@ export type Skill = {
   years: number;
 };
 
+export type Interest = string;
+
 export type Experience = {
   company: string;
   website: string;
   title: string;
   location: string;
   period: string;
+  logo: string;
   tools: string[];
 };
 

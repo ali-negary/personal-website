@@ -1,6 +1,5 @@
-import React from 'react';
-import { Mail, Linkedin, Github } from 'lucide-react';
-import { siteConfig } from '../../config/siteConfig';
+import { Mail, Linkedin, Github } from "lucide-react";
+import { siteConfig } from "../../config/siteConfig";
 
 export function Contact() {
   return (
@@ -10,11 +9,12 @@ export function Contact() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <p className="text-lg text-gray-600">
-              I'm always interested in hearing about new projects and opportunities.
-              Feel free to reach out through any of the following channels:
+              I'm always interested in hearing about new projects and
+              opportunities. Feel free to reach out through any of the following
+              channels:
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <a
               href={`mailto:${siteConfig.email}`}
@@ -24,7 +24,7 @@ export function Contact() {
               <h3 className="text-lg font-semibold mb-2">Email</h3>
               <p className="text-gray-600 text-center">{siteConfig.email}</p>
             </a>
-            
+
             <a
               href={siteConfig.linkedin}
               target="_blank"
@@ -35,7 +35,7 @@ export function Contact() {
               <h3 className="text-lg font-semibold mb-2">LinkedIn</h3>
               <p className="text-gray-600 text-center">Connect with me</p>
             </a>
-            
+
             <a
               href={siteConfig.github}
               target="_blank"

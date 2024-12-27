@@ -1,14 +1,16 @@
-import React from 'react';
-import { Link } from 'react-scroll';
-import { siteConfig } from '../../config/siteConfig';
+import { Link } from "react-scroll";
+import { siteConfig } from "../../config/siteConfig";
 
 export function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100"
+    >
       <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Hi, I'm {siteConfig.name.split(' ')[0]}
+            Hi, This is {siteConfig.name.split(" ")[0]}
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
             {siteConfig.title}

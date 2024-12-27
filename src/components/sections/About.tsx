@@ -1,5 +1,4 @@
-import React from 'react';
-import { siteConfig } from '../../config/siteConfig';
+import { siteConfig } from "../../config/siteConfig";
 
 export function About() {
   return (
@@ -10,7 +9,7 @@ export function About() {
           <p className="text-lg text-gray-700 mb-12 leading-relaxed">
             {siteConfig.about}
           </p>
-          
+
           <div className="grid grid-cols-1 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-6">Technical Skills</h3>
@@ -19,11 +18,29 @@ export function About() {
                   <div key={skill.name} className="flex items-center space-x-2">
                     <span className="text-blue-600">•</span>
                     <span className="text-gray-700">{skill.name}</span>
-                    <span className="text-gray-500 text-sm">({skill.years}y)</span>
+                    <span className="text-gray-500 text-sm">
+                      ({skill.years}y)
+                    </span>
                   </div>
                 ))}
               </div>
             </div>
+
+            {siteConfig.interests.length > 0 && (
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-6">Interests</h3>
+                <div className="flex flex-wrap gap-2">
+                  {siteConfig.interests.map((interest, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm"
+                    >
+                      {interest}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
